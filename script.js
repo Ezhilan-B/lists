@@ -32,8 +32,8 @@ for(var i=0; i<students.length; i++){
     
     studentsDiv.appendChild(mainDiv);
     mainDiv.appendChild(nameTitle);
-    mainDiv.appendChild(nameElem);
     mainDiv.appendChild(regNo);
+    mainDiv.appendChild(nameElem);
     mainDiv.appendChild(ulElem);
 
     for(var j=0; j<courses.length; j++){
